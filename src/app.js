@@ -9,10 +9,4 @@ app.use(middlewares)
 app.use(routes)
 
 
-app.get('*',(req, res)=> {
-   res.send('Welcome')
-})
-
-
-
 module.exports = app
